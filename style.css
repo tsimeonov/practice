@@ -223,3 +223,33 @@ body.active {
 	content: '';
 	position: absolute;
 }
+
+/* HEADER */
+
+.header .input-wrapper {
+	display: none;
+}
+
+.header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: var(--white);
+}
+
+.header.active {
+	position: fixed;
+	transform: translateY(-100%);
+	box-shadow: var(--shadow);
+	animation: slideIn 0.5s ease forwards;
+}
+
+@keyframes slideIn {
+	0% {
+		transform: translateY(-100%);
+	}
+	100% {
+		transform: translateY(-100%);
+	}
+}
