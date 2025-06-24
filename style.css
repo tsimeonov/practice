@@ -250,10 +250,13 @@ body.active {
 		transform: translateY(-100%);
 	}
 	100% {
-		transform: translateY(-100%);
+		transform: translateY(0%);
 	}
 }
 
 .header .container {
 	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 20px;
 }
