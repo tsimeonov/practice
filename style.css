@@ -260,3 +260,23 @@ body.active {
 	align-items: center;
 	gap: 20px;
 }
+
+.logo {
+	font-size: 3.3rem;
+	font-weight: var(---fw-700);
+}
+
+.header-action {
+	display: flex;
+	gap: 15px;
+}
+
+.header-action-btn {
+	position: relative;
+	font-weight: 24px;
+	transition: var(--transition-1);
+}
+
+.header-action-btn:is(:hover, :focus) {
+	color: var(--tan-crayola);
+}
